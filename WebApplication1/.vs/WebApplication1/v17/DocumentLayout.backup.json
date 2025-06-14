@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\uty\\source\\repos\\WebApplication1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|c:\\users\\uty\\source\\repos\\webapplication1\\webapplication1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|c:\\users\\uty\\source\\repos\\webapplication1\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|c:\\users\\uty\\source\\repos\\webapplication1\\webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\webapplication1.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|c:\\users\\uty\\source\\repos\\webapplication1\\webapplication1\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\js\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|c:\\users\\uty\\source\\repos\\webapplication1\\webapplication1\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|c:\\users\\uty\\source\\repos\\webapplication1\\webapplication1\\controllers\\contatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\contatoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|c:\\users\\uty\\source\\repos\\webapplication1\\webapplication1\\services\\contatoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\services\\contatoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|c:\\users\\uty\\source\\repos\\webapplication1\\webapplication1\\models\\contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C21ADD9-680C-4B8A-86ED-D2848E94279E}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\contato.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "app.js",
+              "DocumentMoniker": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\app.js",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\js\\app.js",
+              "ToolTip": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\js\\app.js",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\js\\app.js",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAwwKoAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-14T23:08:08.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "style.css",
+              "DocumentMoniker": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\style.css",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\css\\style.css",
+              "ToolTip": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\css\\style.css",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\css\\style.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-14T23:08:01.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.html",
+              "DocumentMoniker": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\Index.html",
+              "RelativeDocumentMoniker": "WebApplication1\\wwwroot\\Index.html",
+              "ToolTip": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\wwwroot\\Index.html",
+              "RelativeToolTip": "WebApplication1\\wwwroot\\Index.html",
+              "ViewState": "AgIAACcAAAAAAAAAAAAmwFAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-14T23:07:18.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebApplication1",
+              "DocumentMoniker": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
+              "ToolTip": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+              "RelativeToolTip": "WebApplication1\\WebApplication1.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-14T22:59:59.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContatosController.cs",
+              "DocumentMoniker": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\ContatosController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ContatosController.cs",
+              "ToolTip": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\Controllers\\ContatosController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ContatosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T22:59:21.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T22:55:37.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContatoService.cs",
+              "DocumentMoniker": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\Services\\ContatoService.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Services\\ContatoService.cs",
+              "ToolTip": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\Services\\ContatoService.cs",
+              "RelativeToolTip": "WebApplication1\\Services\\ContatoService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvzoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T22:58:18.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Contato.cs",
+              "DocumentMoniker": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Contato.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\Contato.cs",
+              "ToolTip": "C:\\Users\\uty\\source\\repos\\WebApplication1\\WebApplication1\\Models\\Contato.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\Contato.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-14T22:57:32.995Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
