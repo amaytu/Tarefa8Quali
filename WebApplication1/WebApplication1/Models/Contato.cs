@@ -1,5 +1,4 @@
-﻿// Em Models/Contato.cs
-namespace WebApplication1.Models
+﻿namespace WebApplication1.Models
 {
     using System.ComponentModel.DataAnnotations;
 
