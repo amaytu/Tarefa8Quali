@@ -5,7 +5,6 @@
     const inputBusca = document.getElementById('inputBusca');
     const btnNovoContato = document.getElementById('btnNovoContato');
 
-    // Modal e seus elementos
     const contatoModalElement = document.getElementById('contatoModal');
     const contatoModal = new bootstrap.Modal(contatoModalElement);
     const modalTitulo = document.getElementById('modalTitulo');
@@ -13,7 +12,6 @@
     const emailsContainer = document.getElementById('emailsContainer');
     const btnAdicionarEmail = document.getElementById('btnAdicionarEmail');
 
-    // Função para carregar e exibir contatos
     const carregarContatos = async (filtro = '') => {
         const url = filtro ? `${apiBaseUrl}?filtro=${encodeURIComponent(filtro)}` : apiBaseUrl;
         try {
@@ -43,7 +41,6 @@
         }
     };
 
-    // Função para adicionar um campo de email no formulário
     const adicionarCampoEmail = (email = '') => {
         const div = document.createElement('div');
         div.className = 'email-input-group';
@@ -54,34 +51,30 @@
         emailsContainer.appendChild(div);
     };
 
-    // Abre o formulário para um novo contato
     btnNovoContato.addEventListener('click', () => {
         modalTitulo.textContent = 'Novo Contato';
         formContato.reset();
         document.getElementById('contatoId').value = '';
         emailsContainer.innerHTML = '';
-        adicionarCampoEmail(); // Adiciona um campo de email inicial
+        adicionarCampoEmail(); 
         contatoModal.show();
     });
 
-    // Adiciona mais campos de email
     btnAdicionarEmail.addEventListener('click', () => adicionarCampoEmail());
 
-    // Remove um campo de email
     emailsContainer.addEventListener('click', (e) => {
         if (e.target.classList.contains('btn-remover-email')) {
             e.target.closest('.email-input-group').remove();
         }
     });
 
-    // Salva (cria ou atualiza) um contato
     formContato.addEventListener('submit', async (e) => {
         e.preventDefault();
 
         const id = document.getElementById('contatoId').value;
         const emails = [...emailsContainer.querySelectorAll('input[type="email"]')]
             .map(input => input.value)
-            .filter(email => email.trim() !== ''); // Filtra emails vazios
+            .filter(email => email.trim() !== ''); 
 
         const contato = {
             id: id ? parseInt(id) : 0,
@@ -114,12 +107,10 @@
         }
     });
 
-    // Lida com cliques de Editar e Excluir
     tabelaContatosBody.addEventListener('click', async (e) => {
         const id = e.target.dataset.id;
         if (!id) return;
 
-        // Botão Editar
         if (e.target.classList.contains('btn-editar')) {
             try {
                 const response = await fetch(`${apiBaseUrl}/${id}`);
@@ -144,7 +135,6 @@
             }
         }
 
-        // Botão Excluir
         if (e.target.classList.contains('btn-excluir')) {
             if (confirm('Tem certeza que deseja excluir este contato?')) {
                 try {
@@ -157,15 +147,13 @@
         }
     });
 
-    // Lógica da busca
     let timeoutId = null;
     inputBusca.addEventListener('keyup', () => {
         clearTimeout(timeoutId);
         timeoutId = setTimeout(() => {
             carregarContatos(inputBusca.value);
-        }, 300); // Espera 300ms após o usuário parar de digitar
+        }, 300); 
     });
 
-    // Carga inicial
     carregarContatos();
 });
